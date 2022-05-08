@@ -41,6 +41,7 @@ export const Register = () => {
           username,
           password
         );
+        console.log(user);
         await updateProfile(auth.currentUser, { displayName: fname });
         alert("Registered Successfully");
         navigate("/login");
