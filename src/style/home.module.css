@@ -1,0 +1,20 @@
+body {
+  background-image: url("../Assets/bg.png");
+}
+h1 {
+  margin-top: 5%;
+  text-align: center;
+ 
+  color: rgb(59, 11, 104);
+}
+.homeBtn {
+  margin-top: 30%;
+  margin-left: 80%;
+  background-color: rgb(59, 11, 104);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
